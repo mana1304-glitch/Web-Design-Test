@@ -1,1 +1,506 @@
+body{
+    width: 1400px;
+    height: 1770px;
+    /* border: 2px solid red; */
+    background: #ffffff 0% 0% no-repeat padding-box;
+    top: 0px;
+    left: 0px;
+    opacity: 1;
+    position: relative;
+}
+.logo-1{
+    width: 40px;
+    height: 15px;
+    top: 35px;
+    left: 124px;
+   padding: 8px;
+    text-align: left;
+   letter-spacing: 0.26px;
+   background-color: #E4E4E4;
+   color: #3C3C3C;
+   opacity: 1;
+   position: relative;
+}
+/* font: normal normal normal 13px/15px Museo Slab; */
 
+.nav-row a{
+    position: relative;
+    right: 100px;
+    float: right;
+     color: #3C3C3C;
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
+    overflow: hidden;
+    
+    font-style: normal;
+    font-size: 13px;
+    line-height: 15px;
+    /* font-family: ; */
+/* border: 2px solid red; */
+}
+.nav-row a:hover{
+    cursor: pointer;
+    color: red;
+}
+.map-img-item1{
+/* background-image: url("../BDC_Assignment/map.png"); */
+/* background-color: lightgrey; */
+/* background-image: url("../BDC_Assignment/33755.jpg"); */
+/* border: 2px solid rgb(163, 185, 96); */
+width: 838px;
+height: 683px;
+opacity: 0.3;
+position: relative;
+left: 140px;
+/* background-size: cover; */
+    background-position: center;
+    background-repeat: no-repeat;
+object-fit: cover;
+    object-position: 80% 100%;
+    /* display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-size: 2rem; */
+        background-size: auto;
+
+/* top: 0px;
+    left: 671px;
+    width: 838px;
+    height: 683px; */
+        background: transparent url(map.png) 0% 0% no-repeat padding-box;
+        /* background: transparent url('img/Image 3.png') 0% 0% no-repeat padding-box; */
+}
+.Container-1{
+    display: flex;
+    /* border: 2px solid red; */
+width: 1400px;
+    height: 1284px;
+    position: relative;
+    bottom: 62px;
+
+}
+.info-form-item2{
+    width: 562px;
+    height: 700px;
+    /* background-color: lightblue; */
+    margin: 2px;
+    /* opacity: 0.3; */
+}
+#id-1{
+    top: 40px;
+        left: 100px;
+        width: 190px;
+        height: 40px;
+position: relative;
+    font-style: normal;
+        font-variant: normal;
+        font-weight: normal;
+        font-size: 36px;
+        line-height: 54px;
+        font-family: "Museo Slab", serif;
+        color: #3C3C3C;
+}
+#id-2{
+    top: 45px;
+    position: relative;
+        left: 50px;
+        width: 398px;
+        height: 71px;
+        font-style: normal;
+            font-variant: normal;
+            font-weight: normal;
+            font-size: 22px;
+            line-height: 44px;
+            font-family: "Museo Slab", serif;
+            padding: 30px;
+            padding-left: 20px;
+            padding-right: 20px;
+            color: #646464;
+}
+#id-3{
+    top: 46px;
+        left: 50px;
+        width: 243px;
+        height: 29px;
+        /* UI Properties */
+        text-align: left;
+        /* font: normal normal normal 26px/54px Museo Slab; */
+        font-style: normal;
+            font-variant: normal;
+            position: relative;
+            font-weight: normal;
+            font-size: 22px;
+                line-height: 44px;
+                font-family: "Museo Slab";
+        letter-spacing: 0px;
+        color: #3971B1;
+        opacity: 1;
+}
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.container-2 {
+    border-radius: 5px;
+    /* background-color: #f2f2f2; */
+    padding: 20px;
+    position: relative;
+    top: 80px;
+}
+
+/* Font family */
+@font-face {
+    font-family: "Museo Slab";
+    src: url("../BDC_Assignment/Museo_Slab_100.otf") format("truetype");
+    /* adjust path */
+}
+
+/* form css */
+
+.form-container {
+    width: 350px;
+    /* display: flex; */
+    position: relative;
+    left: 100px;
+}
+
+h2 {
+    font-size: 25px;
+    color: #3a6da0;
+    font-weight: normal;
+    margin-bottom: 60px;
+}
+
+.form-group {
+    margin-bottom: 30px;
+}
+
+.form-group input,
+.form-group select {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    font-size: 14px;
+    outline: none;
+    color: #8E8E8E;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+    border-bottom: 1px solid #3a6da0;
+}
+select:hover{
+    cursor: pointer;
+}
+
+.btn {
+    background-color: #3a6da0;
+    color: #fff;
+    border: none;
+    padding: 10px 30px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 2px;
+    width: 150px;
+        height: 45px;
+        float: right;
+
+    text-align: center;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 14px;
+        font-family: 'museo slab';
+        letter-spacing: 0px;
+        color: #FFFFFF;
+        opacity: 1;
+}
+
+.btn:hover {
+    background-color: #2e5780;
+}
+
+.down-arw{
+    /* top: 843px;
+        left: 534px;
+        width: 10px;
+        height: 10px;
+
+
+        background: transparent url('down arrow.png') 0% 0% no-repeat padding-box;
+            opacity: 1; */
+
+            position: absolute;
+               
+                top: 20.5rem;
+               
+                    /* top: 20.5rem;
+                        left: 20.5rem;
+                        width: 25px; */
+
+                left: 20.5rem;
+                width: 25px;
+                height: 20px;
+                background: transparent url("down arrow.png") no-repeat center center;
+                background-size: contain;
+}
+.container-3{
+    /* width: 800px; */
+    /* display: flex; */
+    position: relative;
+    top: 30rem;
+top: 39rem;
+left: 9rem;
+    width: 250px;
+    height: 72px;
+    /* line-height: 0.4;
+    align-items: center;
+    size: 25px;
+    text-align: left; */
+}
+#cont-ide3{
+    line-height: 20px;
+        align-items: center;
+        size: 25px;
+        text-align: left;
+        letter-spacing: 0%;
+        /* font-size: 28px; */
+ font-weight: bold;
+    }
+.container-4{
+      
+        position: relative;
+    text-align: center;
+    white-space: nowrap;
+            top: 42rem;
+            left: 9rem;
+            width: 250px;
+            height: 72px;
+           
+        }
+
+.container-5{
+position: relative;
+    text-align: center;
+    white-space: nowrap;
+    top: 56rem;
+    left: 2rem;
+    /* width: 250px; */
+    height: 72px;
+    color: #3971B1;
+    /* opacity: 100%; */
+    font-size: 25px;
+}
+.container-6{
+    position: relative;
+    
+    white-space: nowrap;
+    top: 60rem;
+    right: 8rem;
+    /* width: 250px; */
+    height: 29px;
+    color: #8E8E8E;
+    /* opacity: 100%; */
+    font-size: 16px;
+}
+.container-7{
+    position: relative;
+    /* text-align: center; */
+    
+    white-space: nowrap;
+    top: 66rem;
+    right: 22rem;
+    /* width: 250px; */
+    height: 72px;
+    color: #3971B1;
+    /* opacity: 100%; */
+    font-size: 26px;
+}
+.container-8{
+    position: relative;
+    /* text-align: center;
+    white-space: nowrap; */
+    white-space: nowrap;
+    top: 70rem;
+    right: 37.5rem;
+    /* width: 250px; */
+    height: 72px;
+    color: #8E8E8E;
+        
+    /* opacity: 100%; */
+    font-size: 16px;
+}
+
+.main-footer{
+    width: 1369px;
+    height: 405px;
+    background-color: lightgray;
+    top: 1369px;
+        left: 0px;
+}
+
+/* footer code */
+/* body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+} */
+
+footer {
+    width: 1400px;
+    height: 405px;
+    background-color: #f4f4f4;
+    margin: auto;
+    padding: 40px 60px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer-logo {
+    width: 120px;
+    height: 60px;
+    background: #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    position: relative;
+    left: 65px;
+}
+
+.footer-menu ul {
+    list-style: none;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    width: 134px;
+    height: 245px;
+    color: #383838;
+    position: relative;
+    right: 70px;
+   
+}
+
+.footer-menu ul li {
+    margin: 10px 0;
+}
+
+.footer-menu ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+}
+
+.footer-newsletter {
+    max-width: 250px;
+    position: relative;
+    right: 300px;
+}
+
+.footer-newsletter h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #444;
+}
+
+.footer-newsletter input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+.footer-newsletter button {
+    background-color: #3a6da0;
+    color: #fff;
+    border: none;
+    padding: 8px 20px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #ddd;
+    padding-top: 15px;
+    font-size: 13px;
+    color: #666;
+}
+
+.footer-social {
+    display: flex;
+    gap: 12px;
+}
+
+.footer-social a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #444;
+}
+
+.to-top {
+    position: absolute;
+    right: 100px;
+    bottom: 100px;
+    text-align: center;
+}
+
+.to-top button {
+    width: 40px;
+    height: 40px;
+    background-color: #3a6da0;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.to-top span {
+    display: block;
+    font-size: 12px;
+    margin-top: 5px;
+    color: #333;
+}
+
+/* media queries */
+
+/* @media screen and (max-width: 400px){
+
+} */
